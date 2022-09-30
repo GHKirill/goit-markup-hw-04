@@ -405,15 +405,9 @@ p,
   vertical-align: text-bottom;
   margin-bottom: 20px;
 }
-/* .join .social-links-list {
-  margin-top: 20px;
-} */
 .footer .container {
   display: flex;
 }
-/* .footer .social-link {
-  background-color: #188ce8;
-} */
 .footer .social-link {
   background-color: rgba(255, 255, 255, 0.1);
 }
@@ -474,7 +468,6 @@ p,
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
-
 .projects-list {
   display: flex;
   flex-wrap: wrap;
