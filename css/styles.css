@@ -392,7 +392,7 @@ p,
 .join {
   width: 206px;
   margin-left: 70px;
-  padding-top: 8px;
+  /* padding-top: 8px; */
 }
 
 .join-title {
@@ -406,6 +406,7 @@ p,
 }
 .footer .container {
   display: flex;
+  align-items: baseline;
 }
 .footer .social-link {
   background-color: rgba(255, 255, 255, 0.1);
@@ -425,7 +426,7 @@ p,
 /* Portfolio */
 /* Examples */
 .header.portfolio {
-  border: var(--gray-color-header-border);
+  border-bottom: var(--gray-color-header-border);
 }
 
 .examples {
@@ -499,5 +500,8 @@ p,
 }
 .examples .item:hover,
 .examples .item:focus {
-  cursor: pointer;
+  cursor: default;
+  /* cursor: pointer; */
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
